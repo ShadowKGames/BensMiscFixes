@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+
+        <!---------- Icons for the Main Tab ---------->
+
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/MainButtonDef[defName="WTH_Tab_Mechanoids"]</xpath>
+                    <value>
+                    <iconPath>UI/Buttons/MainButtons/IconMechanoids</iconPath>
+                    </value>
+                </li>
+				<li Class="PatchOperationAdd">
+                    <xpath>/Defs/MainButtonDef[defName="Guests"]</xpath>
+                    <value>
+                    <iconPath>UI/Buttons/MainButtons/IconHospitality</iconPath>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

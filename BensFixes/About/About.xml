@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bens Fixes</name>
+	<author>Ben Sokal</author>
+	<packageId>bens.fixes</packageId>	
+	<supportedVersions>
+    <li>1.1</li>
+	</supportedVersions>
+	<description>- Change the power draw of the Standing Lamp from 30 to 15.
+- Change the radius of the Standing Lamp from 12 to 11.
+- Change the power draw of the Sunlamp from 2900 to 2400.
+- Add Hospitality icon to main tab bar
+- Add Mechanoids icon to main tab bar
+	</description>
+</ModMetaData>
