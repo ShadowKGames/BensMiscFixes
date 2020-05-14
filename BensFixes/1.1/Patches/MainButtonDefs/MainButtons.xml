@@ -6,7 +6,7 @@
             <li>Core</li>
         </mods>
 
-        <!---------- Icons for the Main Tab ---------->
+        <!-- ===== Icons for the Main Tab ===== -->
 
         <match Class="PatchOperationSequence">
             <success>Always</success>
